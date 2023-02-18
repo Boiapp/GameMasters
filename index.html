@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CDN de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- CDN de Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- Hoja de estilos propios -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <title>GameMasters</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            <li class="nav-item" id="userlogin">
+              <a
+                class="nav-link"
+                href="./login.html"
+                tabindex="-1"
+                aria-disabled="true"
+                >Login</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Modal para detalle de los juegos -->
+    <div
+      class="modal fade"
+      id="modaldetallejuego"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-block">
+            <h5 class="modal-title text-center fw-bold" id="modaltitulo"></h5>
+          </div>
+          <div class="modal-body">
+            <img src="" alt="" id="modalimagen" />
+            <p id="descripcionjuego"></p>
+            <p id="requisitosjuego"></p>
+          </div>
+          <div><p></p></div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card de Juego Destacado -->
+    <div class="card mb-3" style="max-width: 540px">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="" class="img-fluid rounded-start" id="imgjuegodestacado" />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title" id="titulojuegodestacado">Card title</h5>
+            <p class="card-text" id="descripcionjuegodestacado"></p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carruserl 1 -->
+    <div class="swiper" id="contenedorcards" data-id="1">
+      <div class="swiper-wrapper"></div>
+      <div class="swiper-button-prev-1"></div>
+      <div class="swiper-button-next-1"></div>
+      <div class="swiper-pagination-1"></div>
+    </div>
+    <!-- Carruserl 2 -->
+    <div class="swiper" id="contenedorcards" data-id="2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            src="./assets/img/portadas/cod ghosts.png"
+            alt=""
+            width="200px"
+            height="200px"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="./assets/img/portadas/cover-mount-blade.jpg"
+            alt=""
+            width="200px"
+            height="200px"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="./assets/img/portadas/red-dead-redemption-2-2019101812583956_1.jpg"
+            alt=""
+            width="200px"
+            height="200px"
+          />
+        </div>
+      </div>
+      <div class="swiper-pagination-2"></div>
+      <div class="swiper-button-prev-2"></div>
+      <div class="swiper-button-next-2"></div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

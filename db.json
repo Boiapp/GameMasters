@@ -1,0 +1,127 @@
+{
+  "juegos": [
+    {
+      "nombre": "GTA",
+      "descripcion": "",
+      "publicado": true,
+      "categoria": [],
+      "requisitos": "",
+      "id": 1
+    },
+    {
+      "nombre": "fifa",
+      "descripcion": "",
+      "publicado": true,
+      "categoria": [],
+      "requisitos": "",
+      "id": 2
+    },
+    {
+      "nombre": "cyberpunk",
+      "descripcion": "",
+      "publicado": true,
+      "categoria": [],
+      "requisitos": "",
+      "id": 3
+    },
+    {
+      "nombre": "sdf",
+      "descripcion": "",
+      "publicado": false,
+      "categoria": [],
+      "requisitos": "",
+      "destacado": false,
+      "id": 4
+    }
+  ],
+  "usuarios": [
+    {
+      "nombre": "",
+      "id": 1
+    },
+    {
+      "nombre": "Adrian",
+      "id": 2
+    },
+    {
+      "nombre": "Adrian",
+      "apellido": "Figueroa",
+      "usuario": "adrian",
+      "email": "adrian@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "nombre": "Juan",
+      "apellido": "Perez",
+      "usuario": "juan",
+      "email": "juan@gmail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "nombre": "Adrian",
+      "apellido": "Figueroa",
+      "usuario": "adrian",
+      "email": "adrian@gmail.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "nombre": "Adrian",
+      "apellido": "Figueroa",
+      "usuario": "adrian",
+      "email": "adrian@gmail.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "nombre": "Pablo",
+      "apellido": "Marmol",
+      "usuario": "pablo",
+      "email": "pablo@gmail.com",
+      "password": "123456",
+      "id": 7
+    },
+    {
+      "nombre": "Pedro ",
+      "apellido": "Picapiedras",
+      "usuario": "pedro",
+      "email": "pedro@gmail.com",
+      "password": "123456",
+      "id": 8
+    },
+    {
+      "nombre": "Adrian",
+      "apellido": "Figueroa",
+      "usuario": "aa",
+      "email": "adrian@gmail.com",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "nombre": "HOMERO",
+      "apellido": "SIMPSON",
+      "usuario": "homero",
+      "email": "homero@gmail.com",
+      "password": "123456",
+      "id": 10
+    },
+    {
+      "nombre": "HOMERO",
+      "apellido": "SIMPSON",
+      "usuario": "homero",
+      "email": "homero@gmail.com",
+      "password": "123456",
+      "id": 11
+    },
+    {
+      "nombre": "HOMERO",
+      "apellido": "SIMPSON",
+      "usuario": "homero",
+      "email": "homero@gmail.com",
+      "password": "123456",
+      "id": 12
+    }
+  ]
+}
